@@ -11,4 +11,4 @@ Below are some of the key features we will be incorporating:
 3. Accessibility via multiple methods (Web, Mobile App, Voice, SMS)
 4. Simple and intuitive interfaces that are easy to navigate for non-technical users
 5. Dashboard for case managers to track and report metrics, such as engagements and life status
-
+6. ChatBot that will send chats to families who graduated to keep in touch.
