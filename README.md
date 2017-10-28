@@ -1,4 +1,4 @@
-Build a set of secure, digital, multi-channl pathways for Family Promise case managers to easily reach out to families to provide information, assistance, referrals, share opportunities, or to direct them to other resources, including financial capability, tenancy, job training and more.
+Build a set of secure, digital, multi-channel pathways for Family Promise case managers to easily reach out to families to provide information, assistance, referrals, share opportunities, or to direct them to other resources, including financial capability, tenancy, job training and more.
 
 Families would be open to accessing this connection in multiple ways from different devices or locations, knowing it’s secure, safe and easy to use.  In addition graduates can interact dynamically with applications or tools to improve a variety of core skills.
 
