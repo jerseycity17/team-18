@@ -67,7 +67,7 @@
             <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne">Case Number 1911: Family: Tweety</a>
           </h4>
         </div>
-          <div id = "collapseOne" class = "panel-collapse collapse in">
+          <div id = "collapseOne" class = "panel-collapse collapse">
           <div class = "panel-body">
              <div class="container">
                   <table class="table table-bordered">
@@ -121,7 +121,7 @@
             </a>
             </h4>
           </div>
-            <div id = "collapseTwo" class = "panel-collapse collapse in">
+            <div id = "collapseTwo" class = "panel-collapse collapse">
               <div class = "panel-body">
                 <div class="container">
                   <table class="table table-bordered">
@@ -175,7 +175,7 @@
           </a>
           </h4>
         </div>
-          <div id = "collapseThree" class = "panel-collapse collapse in">
+          <div id = "collapseThree" class = "panel-collapse collapse">
             <div class = "panel-body">
               <div class="container">
                   <table class="table table-bordered">
@@ -229,7 +229,7 @@
           </a>
           </h4>
         </div>
-          <div id = "collapseFour" class = "panel-collapse collapse in">
+          <div id = "collapseFour" class = "panel-collapse collapse">
             <div class = "panel-body">
               <div class="container">
                   <table class="table table-bordered">
@@ -279,7 +279,7 @@
           <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseFive">Add new case </a>
           </h4>
         </div>
-          <div id = "collapseFive" class = "panel-collapse collapse in">
+          <div id = "collapseFive" class = "panel-collapse collapse">
             <div class = "panel-body">
                 <div class="container">
                   <table class="table table-bordered">
@@ -374,15 +374,6 @@ while (i < 10) {
 }
 document.getElementById("demo").innerHTML = text;
 </script>
-</div>
-</div>
-</div>
-
-
-
-  
-<div class="tab-pane" id="followup">
-<h3>Messages to follow up.</h3>
 </div>
 </div>
 </div>
