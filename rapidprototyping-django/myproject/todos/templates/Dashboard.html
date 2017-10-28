@@ -22,10 +22,8 @@
 
 
 
-<div id = "myAlert" class = "alert alert-warning">
-   <a href = "#" class = "close" data-dismiss = "alert">&times;</a>
-   <strong>Warning!</strong> Immediate Follow-up needed.
-</div>
+
+       <button type="button" class="btn btn-warning btn-lg btn-block">Family Tweety requested assistance</button>
 
 <script type = "text/javascript">
    $(function(){
@@ -34,7 +32,7 @@
       });
    });  
 </script>  
-       <h1>Case Manager Name</h1>
+       <h1>Logged in: John Doe</h1>
        
     </head>
 
@@ -56,12 +54,12 @@
 <!-- Nav tabs -->
 <ul class="nav nav-tabs">
 <li class="active"><a href="#summary" data-toggle="tab">Case Summary</a></li>
-<li><a  href="#followup" data-toggle="tab">Follow-up</a></li>
+  <li><a  href="#followup" data-toggle="tab">Follow-up <span class="badge">14</span></a></li>
 </ul>
 <!-- Tab panes  -->
 <div class="tab-content">
+ 
   <div class="tab-pane active" id="summary">
-    
     <div class = "panel-group" id = "accordion">
       <div class = "panel panel-default">
         <div class = "panel-heading">
@@ -69,18 +67,46 @@
             <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne">Case Number 1911: Family: Tweety</a>
           </h4>
         </div>
-          <div id = "collapseOne" class = "panel-collapse collapse in">
+          <div id = "collapseOne" class = "panel-collapse collapse">
           <div class = "panel-body">
-             <ul>
-                <li>First Name:</li>
-                <li>Last Name:</li>
-                <li>Family Size:</li>
-                <li>Employment:</li>
-                <li>Housing:</li>
-                <li>Education:</li>
-                <li>Drug Free:</li>
-                <li>Programs:</li>
-            </ul>
+             <div class="container">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <th scope="row">First Name:</th>
+                        <td>Tweety</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Last Name:</th>
+                        <td>Bird</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Family Size:</th>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Employment:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Housing:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Education:</th>
+                        <td>None</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Drug Free:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Programs:</th>
+                        <td>None</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
           </div>
         </div>
       </div>
@@ -95,18 +121,46 @@
             </a>
             </h4>
           </div>
-            <div id = "collapseTwo" class = "panel-collapse collapse in">
+            <div id = "collapseTwo" class = "panel-collapse collapse">
               <div class = "panel-body">
-                <ul>
-                  <li>First Name:</li>
-                  <li>Last Name:</li>
-                  <li>Family Size:</li>
-                  <li>Employment:</li>
-                  <li>Housing:</li>
-                  <li>Education:</li>
-                  <li>Drug Free:</li>
-                  <li>Programs:</li>
-                </ul>
+                <div class="container">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <th scope="row">First Name:</th>
+                        <td>Bugs</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Last Name:</th>
+                        <td>Bunny</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Family Size:</th>
+                        <td>2</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Employment:</th>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Housing:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Education:</th>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Drug Free:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Programs:</th>
+                        <td>None</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
@@ -121,18 +175,46 @@
           </a>
           </h4>
         </div>
-          <div id = "collapseThree" class = "panel-collapse collapse in">
+          <div id = "collapseThree" class = "panel-collapse collapse ">
             <div class = "panel-body">
-              <ul>
-                <li>First Name:</li>
-                <li>Last Name:</li>
-                <li>Family Size:</li>
-                <li>Employment:</li>
-                <li>Housing:</li>
-                <li>Education:</li>
-                <li>Drug Free:</li>
-                <li>Programs:</li>
-              </ul>
+              <div class="container">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <th scope="row">First Name:</th>
+                        <td>Daffy</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Last Name:</th>
+                        <td>Duck</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Family Size:</th>
+                        <td>4</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Employment:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Housing:</th>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Education:</th>
+                        <td>NNo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Drug Free:</th>
+                        <td>Yes</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Programs:</th>
+                        <td>None</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
             </div>
           </div>
         </div>
@@ -143,35 +225,167 @@
         <div class = "panel-heading">
           <h4 class = "panel-title">
           <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseFour">
-               Case Number 1901 - Family Name: 
+               Case Number 1901 - Family Name: Leghorn
           </a>
           </h4>
         </div>
-          <div id = "collapseFour" class = "panel-collapse collapse in">
+          <div id = "collapseFour" class = "panel-collapse collapse ">
             <div class = "panel-body">
-              <ul>
-                <li>First Name:</li>
-                <li>Last Name:</li>
-                <li>Family Size:</li>
-                <li>Employment:</li>
-                <li>Housing:</li>
-                <li>Education:</li>
-                <li>Drug Free:</li>
-                <li>Programs:</li>
-              </ul>
+              <div class="container">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <th scope="row">First Name:</th>
+                        <td>Leghorn</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Last Name:</th>
+                        <td>Foghorn</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Family Size:</th>
+                        <td>23</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Employment:</th>
+                        <td>No</td>
+                      <tr>
+                        <th scope="row">Housing:</th>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Education:</th>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Drug Free:</th>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Programs:</th>
+                        <td>No</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class = "panel-group" id = "accordion">
+      <div class = "panel panel-default">
+        <div class = "panel-heading">
+          <h4 class = "panel-title">
+          <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseFive">Add new case </a>
+          </h4>
+        </div>
+          <div id = "collapseFive" class = "panel-collapse collapse in">
+            <div class = "panel-body">
+                <div class="container">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <th scope="row">First Name:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Last Name:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Family Size:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Employment:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Housing:</th>
+                      <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Education:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Drug Free:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="focusedInput" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Programs:</th>
+                        <td><form class="form-inline">
+                           <div class="form-group">
+                             <input class="form-control" id="`" type="text">
+                           </div></form>
+                        </td>
+                      </tr>
+                    </tbody>
+                      <button type="button" class="btn btn-success">Add</button>
+                  </table>
+                </div>
             </div>
           </div>
         </div>
       </div>
   </div>
+
+  
 <div class="tab-pane" id="followup">
 <h3>Messages to follow up.</h3>
+  <p id="demo"></p>
+
+
+
+  <script>
+var text = "";
+var i = 1;
+
+while (i < 10) {
+  
+  text += "<br>Message" + i;
+    i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
 </div>
 </div>
 </div>
 
 
-  </body>
 
+  
+<div class="tab-pane" id="followup">
+</div>
+</div>
+</div>
 </html>
 
