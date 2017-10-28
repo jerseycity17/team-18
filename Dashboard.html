@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html>
+
 <div class="container">
      <div class="row">
      <head>  
@@ -20,7 +22,8 @@
 
 
 
-<button type="button" class="btn btn-warning btn-lg btn-block">Immediate Follow-up needed</button>
+
+       <button type="button" class="btn btn-warning btn-lg btn-block">Immediate Follow-up needed</button>
 
 <script type = "text/javascript">
    $(function(){
@@ -51,7 +54,7 @@
 <!-- Nav tabs -->
 <ul class="nav nav-tabs">
 <li class="active"><a href="#summary" data-toggle="tab">Case Summary</a></li>
-<li><a  href="#followup" data-toggle="tab">Follow-up<span class="badge">14</span></a></li>
+  <li><a  href="#followup" data-toggle="tab">Follow-up <span class="badge">14</span></a></li>
 </ul>
 <!-- Tab panes  -->
 <div class="tab-content">
@@ -155,9 +158,6 @@
                         <th scope="row">Programs:</th>
                         <td>None</td>
                       </tr>
-                      <form action="/action_page.php">
- 
- 
                     </tbody>
                   </table>
                 </div>
@@ -348,10 +348,8 @@
                            </div></form>
                         </td>
                       </tr>
-             
-
                     </tbody>
-                      <form ><input type="submit" value="Add"></form>
+                      <button type="button" class="btn btn-success">Add</button>
                   </table>
                 </div>
             </div>
@@ -363,7 +361,30 @@
   
 <div class="tab-pane" id="followup">
 <h3>Messages to follow up.</h3>
+  <p id="demo"></p>
+  <script>
+var text = "";
+var i = 1;
+
+
+while (i < 10) {
+  
+  text += "<br>Number of Message" + i;
+    i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
 </div>
 </div>
 </div>
-<html>
+
+
+
+  
+<div class="tab-pane" id="followup">
+<h3>Messages to follow up.</h3>
+</div>
+</div>
+</div>
+</html>
+
