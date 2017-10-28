@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+  <div class="container">
+     <div class="row">
+      <head>  
+         
+        <!--   <h1><button type="btn btn-primary center-block">Follow-up needed immediately</button></h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+        <![endif]-->
+       
+
+
+
+
+  <div id = "myAlert" class = "alert alert-warning">
+    <a href = "#" class = "close" data-dismiss = "alert">&times;</a>
+    <strong>Warning!</strong> Immediate Follow-up needed.
+  </div>
+
+  <script type = "text/javascript">
+   $(function(){
+      $(".close").click(function(){
+         $("#myAlert").alert('close');
+      });
+   });  
+  </script>  
+       <h1>Case Manager Name</h1>
+</head>
+
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#summary">Summary</a></li>
+  <li><a data-toggle="tab" href="#followup">Follow-up</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="summary" class="tab-pane fade in active">
+    <h3>Summary</h3>
+    <p>Case Number:</p>
+  </div>
+  <div id="followup" class="tab-pane fade in active">
+    <h3>Follow-up</h3>
+    <p>Case Number to follow-up</p>
+  </div>
+</div>
+     </div>
+</div>
+<html>
