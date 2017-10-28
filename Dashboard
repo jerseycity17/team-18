@@ -38,6 +38,7 @@
        
     </head>
 
+
 <head>
 <script type='text/javascript'
   src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -54,7 +55,7 @@
 <div class="container">
 <!-- Nav tabs -->
 <ul class="nav nav-tabs">
-<li class="active"><a href="#summary" data-toggle="tab">Case Number</a></li>
+<li class="active"><a href="#summary" data-toggle="tab">Case Summary</a></li>
 <li><a  href="#followup" data-toggle="tab">Follow-up</a></li>
 </ul>
 <!-- Tab panes  -->
@@ -65,18 +66,20 @@
       <div class = "panel panel-default">
         <div class = "panel-heading">
           <h4 class = "panel-title">
-          <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne">
-               Case Number 1911: Family: Tweety
-          </a>
+            <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne">Case Number 1911: Family: Tweety</a>
           </h4>
         </div>
           <div id = "collapseOne" class = "panel-collapse collapse in">
           <div class = "panel-body">
              <ul>
-                <li>Job Status:</li>
-                <li>Housing Status:</li>
-                <li>Health Status:</li>
-                <li>Education Status:</li>
+                <li>First Name:</li>
+                <li>Last Name:</li>
+                <li>Family Size:</li>
+                <li>Employment:</li>
+                <li>Housing:</li>
+                <li>Education:</li>
+                <li>Drug Free:</li>
+                <li>Programs:</li>
             </ul>
           </div>
         </div>
@@ -95,15 +98,19 @@
             <div id = "collapseTwo" class = "panel-collapse collapse in">
               <div class = "panel-body">
                 <ul>
-                  <li>Job Status:</li>
-                  <li>Housing Status:</li>
-                  <li>Health Status:</li>
-                  <li>Education Status:</li>
+                  <li>First Name:</li>
+                  <li>Last Name:</li>
+                  <li>Family Size:</li>
+                  <li>Employment:</li>
+                  <li>Housing:</li>
+                  <li>Education:</li>
+                  <li>Drug Free:</li>
+                  <li>Programs:</li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
+    </div>
         
     <div class = "panel-group" id = "accordion">
       <div class = "panel panel-default">
@@ -117,15 +124,19 @@
           <div id = "collapseThree" class = "panel-collapse collapse in">
             <div class = "panel-body">
               <ul>
-                <li>Job Status:</li>
-                <li>Housing Status:</li>
-                <li>Health Status:</li>
-                <li>Education Status:</li>
+                <li>First Name:</li>
+                <li>Last Name:</li>
+                <li>Family Size:</li>
+                <li>Employment:</li>
+                <li>Housing:</li>
+                <li>Education:</li>
+                <li>Drug Free:</li>
+                <li>Programs:</li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+    </div>
     
     <div class = "panel-group" id = "accordion">
       <div class = "panel panel-default">
@@ -139,10 +150,14 @@
           <div id = "collapseFour" class = "panel-collapse collapse in">
             <div class = "panel-body">
               <ul>
-                <li>Job Status:</li>
-                <li>Housing Status:</li>
-                <li>Health Status:</li>
-                <li>Education Status:</li>
+                <li>First Name:</li>
+                <li>Last Name:</li>
+                <li>Family Size:</li>
+                <li>Employment:</li>
+                <li>Housing:</li>
+                <li>Education:</li>
+                <li>Drug Free:</li>
+                <li>Programs:</li>
               </ul>
             </div>
           </div>
@@ -154,6 +169,9 @@
 </div>
 </div>
 </div>
+
+
+  </body>
 
 </html>
 
