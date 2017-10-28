@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <div class="container">
      <div class="row">
      <head>  
@@ -17,6 +18,10 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
         <![endif]-->
        
+
+
+
+
 <div id = "myAlert" class = "alert alert-warning">
    <a href = "#" class = "close" data-dismiss = "alert">&times;</a>
    <strong>Warning!</strong> Immediate Follow-up needed.
@@ -33,7 +38,6 @@
        
     </head>
 
-<html lang="en">
 <head>
 <script type='text/javascript'
   src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -55,111 +59,101 @@
 </ul>
 <!-- Tab panes  -->
 <div class="tab-content">
-<div class="tab-pane active" id="summary">
-<h3>Summary Table</h3>
-  <table class="table">
-    <thead>
-        <tr>
-            <th>Open</th>
-            <th>Case Number</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr data-toggle="collapse" data-target=".order1">
-          <td><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span> Edit</button></td>
-          <td>1</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-    	<tr class="collapse order1">
-          <td>1</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr class="collapse order1">
-          <td>1</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      <tr data-toggle="collapse" data-target=".order2">
-          <td><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span> Edit</button></td>
-          <td>2</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-    	<tr class="collapse order2">
-          <td>2</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr class="collapse order2">
-          <td>2</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr data-toggle="collapse" data-target=".order3">
-          <td><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span> Edit</button></td>
-          <td>3</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-    	<tr class="collapse order3">
-          <td>3</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr class="collapse order3">
-          <td>3</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr data-toggle="collapse" data-target=".order4">
-          <td><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span> Add</button></td>
-          <td>4</td>
-          <td></td>
-          <td></td>
-          <td></td>
-        <tr class="collapse order4">
-          <td>4</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr class="collapse order4">
-          <td>4</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-    </tbody>
-</table>
-</div>
+  <div class="tab-pane active" id="summary">
+    
+    <div class = "panel-group" id = "accordion">
+      <div class = "panel panel-default">
+        <div class = "panel-heading">
+          <h4 class = "panel-title">
+          <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseOne">
+               Case Number 1911: Family: Tweety
+          </a>
+          </h4>
+        </div>
+          <div id = "collapseOne" class = "panel-collapse collapse in">
+          <div class = "panel-body">
+             <ul>
+                <li>Job Status:</li>
+                <li>Housing Status:</li>
+                <li>Health Status:</li>
+                <li>Education Status:</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class = "panel-group" id = "accordion">
+        <div class = "panel panel-default">
+          <div class = "panel-heading">
+            <h4 class = "panel-title">
+            <a  data-toggle = "collapse" data-parent = "#accordion" href = "#collapseTwo">
+               Case Number 2011 - Family Name:  Bugs
+            </a>
+            </h4>
+          </div>
+            <div id = "collapseTwo" class = "panel-collapse collapse in">
+              <div class = "panel-body">
+                <ul>
+                  <li>Job Status:</li>
+                  <li>Housing Status:</li>
+                  <li>Health Status:</li>
+                  <li>Education Status:</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    <div class = "panel-group" id = "accordion">
+      <div class = "panel panel-default">
+        <div class = "panel-heading">
+          <h4 class = "panel-title">
+          <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseThree">
+               Case Number 2091 - Family Name:  Daffy
+          </a>
+          </h4>
+        </div>
+          <div id = "collapseThree" class = "panel-collapse collapse in">
+            <div class = "panel-body">
+              <ul>
+                <li>Job Status:</li>
+                <li>Housing Status:</li>
+                <li>Health Status:</li>
+                <li>Education Status:</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class = "panel-group" id = "accordion">
+      <div class = "panel panel-default">
+        <div class = "panel-heading">
+          <h4 class = "panel-title">
+          <a data-toggle = "collapse" data-parent = "#accordion" href = "#collapseFour">
+               Case Number 1901 - Family Name: 
+          </a>
+          </h4>
+        </div>
+          <div id = "collapseFour" class = "panel-collapse collapse in">
+            <div class = "panel-body">
+              <ul>
+                <li>Job Status:</li>
+                <li>Housing Status:</li>
+                <li>Health Status:</li>
+                <li>Education Status:</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 <div class="tab-pane" id="followup">
 <h3>Messages to follow up.</h3>
 </div>
 </div>
 </div>
 
+</html>
 
-  </body>
-<html>
