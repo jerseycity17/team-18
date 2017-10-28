@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
 def hello_monkey():
-	Questions = ["Are you currently employed?",
-             "Are you currently in a stable house?",
+	Questions = ["Hey it's Family Practice, are you still working?",
+             "Is your housing situation the same?",
              "Is your education going well?",
              "Another Question",
              "A last Question"]
@@ -29,7 +29,7 @@ def hello_monkey():
 		question = 0
 		return str(res)
 	else:
-		resp.message("A Case Manager will be in contact with you soon")
+		resp.message("A Case Manager will be in touch with you soon")
 		question = 5
 		return str(resp)
 
