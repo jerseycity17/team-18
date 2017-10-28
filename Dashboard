@@ -160,6 +160,9 @@
                         <th scope="row">Programs:</th>
                         <td>None</td>
                       </tr>
+                      <form action="/action_page.php">
+ 
+ 
                     </tbody>
                   </table>
                 </div>
@@ -350,7 +353,10 @@
                            </div></form>
                         </td>
                       </tr>
+             
+
                     </tbody>
+                      <form ><input type="submit" value="Add"></form>
                   </table>
                 </div>
             </div>
