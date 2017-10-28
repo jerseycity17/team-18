@@ -12,3 +12,6 @@ class profile(models.Model):
     def __str__(self):
         """this sets the default return for this object"""
         return self.description
+
+class caseManagerClient(models.Mode):
+     fName = models.ForeignK
